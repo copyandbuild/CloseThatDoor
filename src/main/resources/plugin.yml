@@ -1,0 +1,17 @@
+name: CloseThatDoor
+version: '1.0'
+main: dev.larrox.closeThatDoor.CloseThatDoor
+api-version: '1.21'
+authors: [ Larrox ]
+description: Just close that Door!!
+website: larrox.dev
+commands:
+  closethatdoor:
+    description: Core Command of CloseThatDoor.
+    permission: ctd.command.main
+    aliases:
+      - ctd
+
+permissions:
+  ctd.command.main:
+    default: op
